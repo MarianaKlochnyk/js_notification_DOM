@@ -19,7 +19,7 @@ const pushNotification = (posTop, posRight, title, description, type) => {
   notification.appendChild(messageParagraph);
 
   notification.style.position = 'absolute';
-  notification.style.left = posRight + 'px';
+  notification.style.left = posRight - 'px';
   notification.style.top = posTop + 'px';
 
   document.body.appendChild(notification);
